@@ -6,7 +6,11 @@ import classes from './MainNavigation.module.css';
 function MainNavigation() {
   return (
     <header className={classes.header}>
-      <div className={classes.logo}>Alexis Jares</div>
+      <div className={}>
+        <Link to="/">
+        <img src="https://drive.google.com/uc?id=1_RReY9xp2cq_fpJQHTTafZNow3cNIqWQ" alt="LogoAJ" width="70"/>
+        </Link>
+        </div>
       <nav>
         <ul>
           <li>

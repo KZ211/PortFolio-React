@@ -1,11 +1,11 @@
 import * as React from 'react';
 
-function PortFolio() {
+function Portfolio() {
   return (
     <section>
-      <h1>PortFolio</h1>
+      <h1>Portfolio</h1>
     </section>
   );
 }
 
-export default PortFolio;
+export default Portfolio;

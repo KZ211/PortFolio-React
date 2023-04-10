@@ -2,7 +2,7 @@ import * as React from 'react';
 import { Route, Routes } from 'react-router-dom';
 
 import Home from './components/pages/Home';
-import PortFolio from './components/pages/PortFolio';
+import PortFolio from './components/pages/Portfolio';
 import AboutMe from './components/pages/AboutMe';
 import Layout from './components/layout/Layout';
 import classes from './index.css';
@@ -13,8 +13,8 @@ export default function App() {
       <Layout>
         <Home />
       </Layout>
-        <PortFolio />
-        <AboutMe />
+      <Portfolio />
+      <AboutMe />
     </div>
   );
 }
