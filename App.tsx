@@ -12,9 +12,9 @@ export default function App() {
     <div className={classes.appContainer}>
       <Layout>
         <Home />
+        <Portfolio />
+        <AboutMe />
       </Layout>
-      <Portfolio />
-      <AboutMe />
     </div>
   );
 }

@@ -1,0 +1,19 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #0072bb;
+  box-shadow: 0px 10px 1000px black;
+}
+.ul {
+  list-style: none;
+  display: flex;
+}
+.li {
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
