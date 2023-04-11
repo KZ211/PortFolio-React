@@ -9,10 +9,13 @@ function Portfolio() {
         <h1>Portfolio</h1>
       </div>
       <div className={classes.gridContainer}>
-        <div className={(classes.item1, classes.colorContainer)}>
-          <h2>Project 1</h2>
-          <h1>Proximamente</h1>
+      <div className={classes.coldental}>
+      <a href="http://coldental.stevearagonsite.com/">
+      <div className={(classes.item1, classes.imgContainer)}>
+          <h2>Coldental</h2>
         </div>
+      </a>
+      </div>
         <div className={(classes.item2, classes.colorContainer)}>
           <h2>Project 2</h2>
           <h1>Proximamente</h1>
