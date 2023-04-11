@@ -17,7 +17,7 @@ function MainNavigation() {
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/PortFolio">PortFolio</Link>
+            <Link to="/PortFolio">Portfolio</Link>
           </li>
           <li>
             <Link to="/AboutMe">AboutMe</Link>
