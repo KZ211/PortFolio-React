@@ -38,6 +38,7 @@
 .header a.active {
   color: #507178;
   transition: 0.5s ease;
-  box-shadow: 0px 4px 0px #507178;
+  box-shadow: 0px 4px 0px white;
   font-size: 1.6rem;
+  color: black;
 }
