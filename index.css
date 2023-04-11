@@ -26,3 +26,17 @@ h2 {
   height: 100vh;
   overflow-y: auto;
 }
+
+/* para el scroll vertical */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f2f2f2;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0072bb;
+  border-radius: 4px;
+}

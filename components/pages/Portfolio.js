@@ -9,32 +9,29 @@ function Portfolio() {
         <h1>Portfolio</h1>
       </div>
       <div className={classes.gridContainer}>
-      <div className={classes.coldental}>
-      <a href="http://coldental.stevearagonsite.com/">
-      <div className={(classes.item1, classes.imgContainer)}>
-          <h2>Coldental</h2>
+        <div className={(classes.item1, classes.colorContainer)}>
+          <a href="http://coldental.stevearagonsite.com/" target="blank">
+          Coldental
+          <img
+            src="https://drive.google.com/uc?id=14bdraVodGrabR-WeuRJau3vH1AB0wLHh"
+            alt="Coldental"
+            />
+            </a>
         </div>
-      </a>
-      </div>
         <div className={(classes.item2, classes.colorContainer)}>
-          <h2>Project 2</h2>
-          <h1>Proximamente</h1>
+          <h2>Slot 2</h2>
         </div>
         <div className={(classes.item3, classes.colorContainer)}>
-          <h2>Project 3</h2>
-          <h1>Proximamente</h1>
+          <h2>Slot 3</h2>
         </div>
         <div className={(classes.item4, classes.colorContainer)}>
-          <h2>Project 4</h2>
-          <h1>Proximamente</h1>
+          <h2>Slot 4</h2>
         </div>
         <div className={(classes.item5, classes.colorContainer)}>
-          <h2>Project 5</h2>
-          <h1>Proximamente</h1>
+          <h2>Slot 5</h2>
         </div>
         <div className={(classes.item6, classes.colorContainer)}>
-          <h2>Project 6</h2>
-          <h1>Proximamente</h1>
+          <h2>Slot 6</h2>
         </div>
       </div>
     </section>
