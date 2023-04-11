@@ -4,16 +4,25 @@
   flex-direction: column;
   align-items: center;
   background-color: #0072bb;
-  box-shadow: 0px 10px 1000px black;
+  box-shadow: 0px 0px 30px black;
 }
 .ul {
   list-style: none;
   display: flex;
 }
 .li {
-  margin-left: 20px;
-  margin-right: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin-left: 30px;
+  margin-right: 30px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+.li a{
+  text-decoration: none;
+  color: black;
+}
+.li :hover{
+  background-color: #6D7275;
+  border-radius: 10px;
+  transition: 0.5s;
 }
