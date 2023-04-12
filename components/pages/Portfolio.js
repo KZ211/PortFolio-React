@@ -7,6 +7,7 @@ function Portfolio() {
     <section className={classes.section}>
       <div className={classes.title}>
         <h1>Portfolio</h1>
+        <h2>My Projects</h2>
       </div>
       <div className={classes.gridContainer}>
         <div className={(classes.item1, classes.colorContainer)}>
