@@ -81,3 +81,11 @@
   grid-column: 3;
   grid-row: 2;
 }
+
+@media(max-width: 425px){
+  
+  .gridContainer{
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: (3,50px);
+  }
+}
