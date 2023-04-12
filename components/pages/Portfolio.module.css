@@ -83,9 +83,19 @@
 }
 
 @media(max-width: 425px){
-  
+  .section{
+    flex-direction: column;
+    margin-left: 0;
+    margin-right: 0;
+    
+  }
   .gridContainer{
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: (3,50px);
+    grid-template-rows: (3);
+    justify-content: center;
+  }
+  .colorContainer{
+    width: 150px;
+    height: 80px;
   }
 }
