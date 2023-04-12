@@ -18,7 +18,12 @@
   flex-direction: column;
   margin-left: 20px;
 }
-
+.title h1{
+  text-decoration: underline;
+}
+.title h2{
+  margin-top: -100px;
+}
 .gridContainer {
   display: grid;
   position: relative;
@@ -31,7 +36,7 @@
   border-radius: 10px;
 }
 .gridContainer :hover {
-  background-color: #0072bb;
+  background-color: #6d7275;
   transition: 0.5s;
 }
 .colorContainer {
@@ -39,7 +44,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: #6d7275;
+  background-color: #0072bb;
   width: 300px;
   height: 230px;
   border-radius: 10px;
