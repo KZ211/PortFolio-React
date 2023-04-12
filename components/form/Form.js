@@ -1,11 +1,16 @@
-import React from "react"
+import React from 'react';
 
-function Form(){
-  return <form>
+function Form() {
+  return (
     <div>
-      <input text="input"/>
+    <form>
+        <input tipe="text" text="input" />
+        <label htmlFor="">Input1</label>
+        <input type="mail"/>
+        <label htmlFor="">Mail</label>
+    </form>
     </div>
-  </form>
+  );
 }
 
 export default Form;

@@ -1,7 +1,6 @@
 import * as React from 'react';
 
 import classes from "./Home.module.css";
-import logo from "../../public/LogoAJ.jpg";
 
 function Home() {
   return (
