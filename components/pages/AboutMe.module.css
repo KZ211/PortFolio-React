@@ -10,6 +10,7 @@
 }
 .section h1 {
   text-decoration: underline;
+  margin-bottom: -40px;
 }
 .title {
   display: flex;
@@ -26,4 +27,17 @@
   text-align: center;
   margin-top: 50px;
   margin-right: 50px;
+}
+.infoContainer a {
+  padding: 5px;
+  border: solid 1px black;
+  border-radius: 20px;
+  background-color: #155f8d;
+  text-decoration: none;
+  color: black;
+  margin-bottom: 4px;
+}
+.infoContainer a:hover {
+  background-color: #6d7275;
+  transition: 0.5s;
 }
