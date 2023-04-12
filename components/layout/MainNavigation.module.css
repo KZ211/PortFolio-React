@@ -41,7 +41,7 @@
   color: black;
 }
 
-@media(min-width:410px){
+@media(max-width:425px){
   .header ul{
     display: none;
   }

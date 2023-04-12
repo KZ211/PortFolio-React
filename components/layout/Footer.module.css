@@ -26,7 +26,10 @@
   border-radius: 10px;
   transition: 0.5s;
 }
-@media(min-width: 410px){
+@media(max-width: 553px){
+  .footer{
+    text-align: center;
+  }
   .ul{
     margin-left: -40px;
   }
