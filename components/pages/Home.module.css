@@ -21,7 +21,7 @@
   background-color: #f2f2f2;
 }
 
-@media(max-width: 425px){
+@media(max-width: 1024px){
   .Home h1{
     margin-bottom:-60px;
   }

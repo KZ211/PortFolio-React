@@ -82,7 +82,7 @@
   grid-row: 2;
 }
 
-@media(max-width: 425px){
+@media(max-width: 1024px){
   .section{
     flex-direction: column;
     margin-left: 0;
@@ -93,6 +93,9 @@
     margin-left: 0;
     margin-top: -100px;
     margin-bottom: 100px;
+  }
+  .title h2{
+    margin-top: -100px;
   }
   .gridContainer{
     grid-template-columns: repeat(2, 1fr);
