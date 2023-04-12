@@ -10,6 +10,10 @@
   background-image: url(https://thumbs.dreamstime.com/b/abstract-dna-molecules-structure-science-technology-background-illustration-vector-119136443.jpg);
   margin-bottom: 20px;
 }
+.div img{
+  margin-top: 50px;
+  width: 580px;
+}
 
 .Home h1 {
   text-align: center;

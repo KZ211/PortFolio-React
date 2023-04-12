@@ -7,7 +7,7 @@
 body {
   font-family: 'Open Sans', sans-serif;
   margin: 0;
-  background-color: #0072bb;
+  background-color: #155f8d;
 }
 
 h1 {
@@ -37,6 +37,6 @@ h2 {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #0072bb;
+  background: #155f8d;
   border-radius: 4px;
 }
