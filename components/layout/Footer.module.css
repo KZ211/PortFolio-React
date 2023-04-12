@@ -26,3 +26,11 @@
   border-radius: 10px;
   transition: 0.5s;
 }
+@media(min-width: 410px){
+  .ul{
+    margin-left: -40px;
+  }
+  .li{
+    margin: 1px 8px;
+  }
+}
