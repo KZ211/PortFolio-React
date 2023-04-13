@@ -1,26 +1,29 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import {Link} from "react-scroll";
 
 import classes from './MainNavigation.module.css';
 
 function MainNavigation() {
   return (
     <header className={classes.header}>
-      <div className={}>
-        <Link to="/">
+      <div>
+        <li><Link to="home" smooth={true}>
         <img src="https://drive.google.com/uc?id=1_RReY9xp2cq_fpJQHTTafZNow3cNIqWQ" alt="LogoAJ" width="70"/>
-        </Link>
+          </Link></li>
         </div>
       <nav>
         <ul>
           <li>
-            <Link to="/">Home</Link>
+           <Link to="home" smooth={true}>Home</Link>
           </li>
           <li>
-            <Link to="/PortFolio">Portfolio</Link>
+          <Link to="portfolio" smooth={true}>Portfolio</Link>
           </li>
           <li>
-            <Link to="/AboutMe">AboutMe</Link>
+        <Link to="aboutme" smooth={true}>About Me</Link>
+          </li>
+          <li>
+        <Link to="contactme" smooth={true}>Contact Me</Link>
           </li>
         </ul>
       </nav>
