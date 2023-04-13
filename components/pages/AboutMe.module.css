@@ -2,11 +2,15 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #f2f2f2;
+  height: 100vh;
   margin-top: 4px;
-  margin-left: 30px;
-  margin-right: 30px;
-  border-radius: 10px;
+  background: linear-gradient(
+    90deg,
+    #155f8d 0%,
+    #155f8d 30.2%,
+    white 30.2%,
+    white 100%
+  );
 }
 .section h1 {
   text-decoration: underline;
@@ -15,7 +19,7 @@
 .title {
   display: flex;
   position: relative;
-  align-items: flex-start;
+  align-items: center;
   flex-direction: column;
   margin-left: 20px;
 }
@@ -27,6 +31,10 @@
   text-align: center;
   margin-top: 50px;
   margin-right: 50px;
+}
+.infoContainer img {
+  border: solid 1px black;
+  background-color: #155f8d;
 }
 .infoContainer a {
   padding: 5px;
@@ -41,17 +49,17 @@
   background-color: #6d7275;
   transition: 0.5s;
 }
-@media(max-width:425px){
-  .section{
+@media (max-width: 425px) {
+  .section {
     justify-content: center;
     flex-direction: column;
     text-align: center;
     margin: 4px 0px 0px 0px;
   }
-  .infoContainer img{
-    width:457px;
+  .infoContainer img {
+    width: 457px;
   }
-  .icons img{
-    width:100px;
+  .icons img {
+    width: 100px;
   }
 }

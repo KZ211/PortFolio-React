@@ -12,7 +12,7 @@ function AboutMe() {
       <div className={classes.infoContainer}>
         <img
           src="https://drive.google.com/uc?id=1km5xxzjNk4WitcvzbniCktIhn9dNX1I9"
-          width="600px"
+          width="450px"
         />
         <p>
           I'm in the admission course at the University of 3 de Febrero (UNTREF)

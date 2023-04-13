@@ -41,7 +41,7 @@
   border-radius: 10px;
 }
 .gridContainer :hover {
-  background-color: #6d7275;
+  background-color: #a5a8aa;
   transition: 0.5s;
 }
 .colorContainer {
@@ -49,12 +49,11 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: #155f8d;
+  background-color: #6d7275;
   width: 315px;
   height: 230px;
   border-radius: 10px;
   margin-right: 15px;
-  border: solid 5px black;
 }
 .colorContainer a {
   display: flex;
