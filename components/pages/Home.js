@@ -1,10 +1,14 @@
 import * as React from 'react';
 
+import MainNavigation from "../layout/MainNavigation"
 import classes from "./Home.module.css";
 
 function Home() {
   return (
     <section className={classes.Home}>
+      <nav>
+        <MainNavigation />
+      </nav>
       <div className={classes.div}>
       <h1>Home</h1>
         <img src="https://drive.google.com/uc?id=1JG4hErb-UzCkC-hZnPjY0B5Lt9lOCHXN" alt="Alexis Jares" width="700" />
