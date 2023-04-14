@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React from 'react';
 import {Element} from "react-scroll";
 
 import Home from './components/pages/Home';
@@ -8,7 +8,7 @@ import ContactMe from "./components/pages/ContactMe";
 import Footer from './components/layout/Footer';
 import classes from './index.css';
 
-export default function App() {
+export default function App() {  
   return (
     <div className={classes.appContainer}>
       <Element name="home">

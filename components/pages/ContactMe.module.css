@@ -5,10 +5,17 @@
   background: linear-gradient(
     30deg,
     #155f8d 0%,
-    #155f8d 58.8%,
-    white 58.8%,
+    #155f8d 59.4%,
+    white 59.4%,
     white 100%
   );
+}
+.container button{
+  border: solid 1px black;
+  border-radius: 10px;
+  background-color: white;
+  padding: 10px 30px;
+  cursor: pointer;
 }
 .title{
   display: flex;
