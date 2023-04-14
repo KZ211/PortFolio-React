@@ -8,10 +8,11 @@ body {
   font-family: 'Open Sans', sans-serif;
   margin: 0;
   background-color: #155f8d;
+  scroll-snap-type: y mandatory;
+  
 }
 
 h1 {
-  font-size: 2.5rem;
   color: black;
   font-family: 'Bebas Neue', cursive;
   font-size: 120px;

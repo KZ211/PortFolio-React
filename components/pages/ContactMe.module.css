@@ -5,8 +5,8 @@
   background: linear-gradient(
     30deg,
     #155f8d 0%,
-    #155f8d 59.4%,
-    white 59.4%,
+    #155f8d 59.8%,
+    white 59.8%,
     white 100%
   );
 }
@@ -16,6 +16,9 @@
   background-color: white;
   padding: 10px 30px;
   cursor: pointer;
+}
+.container button:hover{
+  background-color: #6d7275;
 }
 .title{
   display: flex;
