@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
-*{
+* {
   box-sizing: border-box;
 }
 
@@ -9,11 +9,10 @@ body {
   margin: 0;
   background-color: #155f8d;
   scroll-snap-type: y mandatory;
-  
 }
 
 h1 {
-  color: black;
+  color: violet;
   font-family: 'Bebas Neue', cursive;
   font-size: 120px;
 }
