@@ -11,56 +11,53 @@ function AboutMe() {
           width="250px"
         />
         <p>
-          I'm course at the University of 3 de Febrero (UNTREF)
+        I am studying "Computer Engineering" at the University of February 3 (UNTREF).
           <br />
-          aimed at the undergraduate degree in "Computer Engineering". <br />I
-          was born in Buenos Aires, Argentina, in a small town in the northern
-          area called <br />
-          "Presidente Derqui". <br />I began to delve into programming at the
-          age of 16, but then stopped for a while as <br />I didn't have a clear
-          path to follow, and ended up feeling frustrated.
-          <br /> In 2022, I decided to pick it up again and push forward with my
-          career as a developer.
-          <br />I credit my learning to my partner Steven Aragon (a senior
-          programmer and co-founder of Claps).
-          <br /> Thanks to him, I now have a solid foundation in many
-          computational areas such as:
+          I was born in Buenos Aires, Argentina, in a small northern zone party called "Presidente Derqui".
+          <br/>
+           I started learning programming at the age of 16 as a hobby. In 2022, I decided to take it up more
+           <br/> 
+           seriously and move on with my development career. I credit my great friend Steven Aragon (senior
+           <br/>
+            programmer and co-founder of Claps) for my learning. Thanks to him I now have a solid foundation 
+            <br/>
+            in many areas of development such as:
         </p>
         <div className={classes.icons}>
           <img
             src="https://img.icons8.com/external-tal-revivo-bold-tal-revivo/256/external-html-5-is-a-software-solution-stack-that-defines-the-properties-and-behaviors-of-web-page-logo-bold-tal-revivo.png"
             alt="iconHTML"
-            width="100px"
+            width="50px"
           />
           <img
             src="https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/256/external-css-files-tanah-basah-glyph-tanah-basah.png"
             alt="iconCSS"
-            width="100px"
+            width="50px"
           />
           <img
             src="https://img.icons8.com/ios-filled/256/javascript.png"
             alt="iconJavaScript"
-            width="100px"
+            width="50px"
           />
           <img
             src="https://img.icons8.com/glyph-neue/256/php.png"
             alt=""
-            width="100px"
+            width="50px"
           />
           <img
             src="https://img.icons8.com/ios-filled/256/python.png"
             alt=""
-            width="100px"
+            width="50px"
           />
           <img
             src="https://img.icons8.com/ios/256/mysql-logo.png"
             alt=""
-            width="100px"
+            width="50px"
           />
           <img
             src="https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/256/external-react-social-media-tanah-basah-glyph-tanah-basah.png"
             alt="icon"
-            width="100px"
+            width="50px"
           />
         </div>
         <a
