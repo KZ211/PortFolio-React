@@ -12,6 +12,10 @@ body {
   scroll-snap-type: y mandatory;
 }
 
+div nav{
+  z-index: 100;
+}
+
 h1 {
   color: black;
   font-family: 'Bebas Neue', cursive;

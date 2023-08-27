@@ -7,11 +7,11 @@
 }
 
 .Home {
-  margin-top: 40px;
+  height: 70vh;
   display: flex;
   flex-direction: column;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-  background: linear-gradient(115deg,#69d2e7 0%,#69d2e7 27.5%, #fff 27.5%,#fff 70%, #69d2e7 70%,#69d2e7 100%);
+  background: linear-gradient(115deg,#6bb39b 0%,#6bb39b 32%, #daf3ea 32%,#daf3ea 68.5%, #6bb39b 68.5%,#6bb39b 100%);
 }
 .div{
   display: flex;
@@ -19,7 +19,7 @@
   flex-direction: row;
 }
 .div img{
-  width: 523px;
+  width: 450px;
   align-items: flex-end;
 }
 
