@@ -12,7 +12,7 @@ function Footer() {
               <img
                 src="https://img.icons8.com/ios-filled/256/instagram.png"
                 alt="Instagram"
-                width="60"
+                width="30"
               />
               <h3>Instagram</h3>
             </a>
@@ -24,7 +24,7 @@ function Footer() {
               <img
                 src="https://img.icons8.com/ios-filled/256/facebook-new.png"
                 alt="Facebook"
-                width="60"
+                width="30"
               />
               <h3>Facebook</h3>
             </a>
@@ -36,7 +36,7 @@ function Footer() {
               <img
                 src="https://img.icons8.com/ios-filled/256/github.png"
                 alt="GitHub"
-                width="60"
+                width="30"
               />
               <h3>GitHub</h3>
             </a>
@@ -51,7 +51,7 @@ function Footer() {
               <img
                 src="https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/256/external-linkedin-social-media-tanah-basah-glyph-tanah-basah.png"
                 alt="Linkedin"
-                width="60"
+                width="30"
               />
               <h3>Linkedin</h3>
             </a>
