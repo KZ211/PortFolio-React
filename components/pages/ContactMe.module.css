@@ -1,4 +1,5 @@
 .container{
+  height: 500px;
   display: flex;
   flex-direction: column;
   border-radius: 10x;
@@ -9,6 +10,8 @@
     #f6f6f6 59.8%,
     #f6f6f6 100%
   );
+  overflow: hidden;
+  overflow-y: scroll;
 }
 .container button{
   border: solid 1px black;
