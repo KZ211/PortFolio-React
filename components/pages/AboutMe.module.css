@@ -6,8 +6,8 @@
   margin-top: 4px;
   background: linear-gradient(
     90deg,
-    #155f8d 0%,
-    #155f8d 30.2%,
+    #69d2e7 0%,
+    #69d2e7 30.2%,
     white 30.2%,
     white 100%
   );
@@ -34,12 +34,12 @@
 }
 .infoContainer img {
   border: solid 1px black;
+  border-radius: 80px;
 }
 .infoContainer a {
   padding: 5px;
   border: solid 1px black;
-  border-radius: 20px;
-  background-color: #155f8d;
+  background-color: #69d2e7;
   text-decoration: none;
   color: black;
   margin-bottom: 4px;

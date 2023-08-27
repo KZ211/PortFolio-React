@@ -15,7 +15,7 @@ function AboutMe() {
           width="450px"
         />
         <p>
-          I'm in the admission course at the University of 3 de Febrero (UNTREF)
+          I'm course at the University of 3 de Febrero (UNTREF)
           <br />
           aimed at the undergraduate degree in "Computer Engineering". <br />I
           was born in Buenos Aires, Argentina, in a small town in the northern

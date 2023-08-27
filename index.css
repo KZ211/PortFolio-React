@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Quicksand&display=swap');
 
-*{
+* {
   box-sizing: border-box;
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   margin: 0;
-  background-color: #155f8d;
+  background-color: #69d2e7;
   scroll-snap-type: y mandatory;
-  
 }
 
 h1 {
@@ -36,6 +36,6 @@ h2 {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #155f8d;
+  background: #6d7275;
   border-radius: 4px;
 }

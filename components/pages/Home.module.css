@@ -1,15 +1,22 @@
+:root{
+  --naranjita-f: #fa6900;
+  --naranjita-s: #f38630;
+  --cremita: #e0e4cc;
+  --celestito-s: #a7dbd8;
+  --celestito-f: #69d2e7;
+}
+
 .Home {
+  margin-top: 40px;
   display: flex;
   flex-direction: column;
-  margin-bottom: 10px;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-  background: linear-gradient(115deg,white 0%,white 27.5%, #155f8d 27.5%,#155f8d 70%, white 70%,white 100%);
+  background: linear-gradient(115deg,#69d2e7 0%,#69d2e7 27.5%, #fff 27.5%,#fff 70%, #69d2e7 70%,#69d2e7 100%);
 }
 .div{
   display: flex;
   justify-content: space-around;
   flex-direction: row;
-  
 }
 .div img{
   width: 523px;
