@@ -8,8 +8,10 @@
 body {
   font-family: 'Quicksand', sans-serif;
   margin: 0;
-  background-color: #69d2e7;
+  background-color: #6bb39b;
   scroll-snap-type: y mandatory;
+  border: 1px solid black;
+  margin: 60px 20px 0px 20px;
 }
 
 div nav{

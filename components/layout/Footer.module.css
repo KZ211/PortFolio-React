@@ -3,7 +3,8 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  background-color: #6bb39b;
+  background-color: #85e6c0;
+  padding-top: 10px;
 }
 .ul {
   list-style: none;

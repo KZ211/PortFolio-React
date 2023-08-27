@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from 'react-scroll';
+import { Link } from 'react-router-dom';
 
 import Home from './../pages/Home.js';
 import Portfolio from './../pages/Portfolio.js';
@@ -30,7 +30,7 @@ function MainNavigation() {
       <header className={classes.header}>
         <div className={}>
           <li>
-            <Link>
+            <Link to="/">
               <img
                 onClick={changeToHome}
                 src="https://drive.google.com/uc?id=1_RReY9xp2cq_fpJQHTTafZNow3cNIqWQ"
@@ -43,16 +43,20 @@ function MainNavigation() {
         <nav>
           <ul>
             <li>
-              <Link onClick={changeToHome}>Home</Link>
+              <Link className={page === 0 ? classes.ocultar : classes.mostrar} onClick={changeToHome}>Home</Link>
+              <p className={page === 0 ? classes.mostrar : classes.ocultar}>◉</p>
             </li>
             <li>
-              <Link onClick={changeToPortfolio}>Portfolio</Link>
+              <Link to="/portfolio" className={page === 1 ? classes.ocultar : classes.mostrar} onClick={changeToPortfolio}>Portfolio</Link>
+              <p className={page === 1 ? classes.mostrar : classes.ocultar}>◉</p>
             </li>
             <li>
-              <Link onClick={changeToAboutMe}>About Me</Link>
+              <Link to="/aboutme" className={page === 2 ? classes.ocultar : classes.mostrar} onClick={changeToAboutMe}>About Me</Link>
+              <p className={page === 2 ? classes.mostrar : classes.ocultar}>◉</p>
             </li>
             <li>
-              <Link onClick={changeToContactMe}>Contact Me</Link>
+              <Link to="/contactme" className={page === 3 ? classes.ocultar : classes.mostrar} onClick={changeToContactMe}>Contact Me</Link>
+              <p className={page === 3 ? classes.mostrar : classes.ocultar}>◉</p>
             </li>
           </ul>
         </nav>

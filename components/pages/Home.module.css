@@ -1,17 +1,16 @@
 :root{
-  --naranjita-f: #fa6900;
-  --naranjita-s: #f38630;
-  --cremita: #e0e4cc;
-  --celestito-s: #a7dbd8;
-  --celestito-f: #69d2e7;
+  --color1 : #f7f4e8;
+  --color2 : #daf3ea;
+  --color3 : #85e6c0;
+  --color4 : #6bb39b;
+  --color5 : #0b0b0d;
 }
 
 .Home {
-  height: 70vh;
   display: flex;
   flex-direction: column;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-  background: linear-gradient(115deg,#6bb39b 0%,#6bb39b 32%, #daf3ea 32%,#daf3ea 68.5%, #6bb39b 68.5%,#6bb39b 100%);
+  background: linear-gradient(90deg,#85e6c0 0%,#85e6c0 , #daf3ea 38.9%,#daf3ea 57.9%, #85e6c0 ,#85e6c0 100%);
 }
 .div{
   display: flex;
@@ -19,7 +18,8 @@
   flex-direction: row;
 }
 .div img{
-  width: 450px;
+  width: 295px;
+  height: 395px;
   align-items: flex-end;
 }
 

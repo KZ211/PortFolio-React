@@ -5,14 +5,19 @@
   align-items: flex-end;
   justify-content: flex-start;
   flex-direction: column;
-  background-color: #6bb39b;
+  background-color: #85e6c0;
   padding: 0 3%;
+  padding-top: 10px;
   list-style: none;
 }
 
 /*Probando ocular home cuando este en el mismo*/
 .ocultar{
   display: none;
+}
+
+.mostrar{
+  display: block;
 }
 
 .logo {
