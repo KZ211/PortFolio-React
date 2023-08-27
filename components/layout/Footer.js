@@ -58,7 +58,7 @@ function Footer() {
           </div>
         </li>
       </ul>
-      <p>Create by Alexis Jares | all rigth reseve | 10/04/2023</p>
+      <p>Create by Alexis Jares | All rights reserved © | 10/04/2023</p>
     </footer>
   );
 }

@@ -43,7 +43,7 @@ function MainNavigation() {
         <nav>
           <ul>
             <li>
-              <Link className={page === 0 ? classes.ocultar : classes.mostrar} onClick={changeToHome}>Home</Link>
+              <Link to="/" className={page === 0 ? classes.ocultar : classes.mostrar} onClick={changeToHome}>Home</Link>
               <p className={page === 0 ? classes.mostrar : classes.ocultar}>◉</p>
             </li>
             <li>

@@ -8,18 +8,19 @@
 body {
   font-family: 'Quicksand', sans-serif;
   margin: 0;
-  background-color: #6bb39b;
+  background-color: #f6f6f6;
   scroll-snap-type: y mandatory;
-  border: 1px solid black;
-  margin: 60px 20px 0px 20px;
+  border: 3px inset #b90504;
+  border-radius: 10px;
+  margin: 10px 20px 10px 20px;
 }
 
-div nav{
+div nav {
   z-index: 100;
 }
 
 h1 {
-  color: black;
+  color: #0b0b0d;
   font-family: 'Bebas Neue', cursive;
   font-size: 120px;
 }

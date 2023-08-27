@@ -5,10 +5,6 @@ import classes from './AboutMe.module.css';
 function AboutMe() {
   return (
     <section className={classes.section}>
-      <div className={classes.title}>
-        <h1>About Me</h1>
-        <h2>My Info</h2>
-      </div>
       <div className={classes.infoContainer}>
         <img
           src="https://drive.google.com/uc?id=1km5xxzjNk4WitcvzbniCktIhn9dNX1I9"

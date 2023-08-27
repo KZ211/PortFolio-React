@@ -4,10 +4,10 @@
   border-radius: 10x;
   background: linear-gradient(
     30deg,
-    #69d2e7 0%,
-    #69d2e7 59.8%,
-    white 59.8%,
-    white 100%
+    #e8e8e8 0%,
+    #e8e8e8 59.8%,
+    #f6f6f6 59.8%,
+    #f6f6f6 100%
   );
 }
 .container button{
