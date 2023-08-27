@@ -9,6 +9,20 @@
   list-style: none;
 }
 
+.page-transition {
+  opacity: 1;
+  max-height: 1000px;
+  overflow: hidden;
+  transition: opacity 0.5s ease, max-height 0.5s ease;
+}
+
+.page-transition.hidden {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+}
+
+
 .logo {
   font-size: 2rem;
   color: white;

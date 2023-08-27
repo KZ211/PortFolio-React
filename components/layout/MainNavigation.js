@@ -28,7 +28,7 @@ function MainNavigation() {
   return (
     <div>
       <header className={classes.header}>
-        <div>
+        <div className={`page-transition ${page === 0 ? '' : 'hidden'}`}>
           <li>
             <Link>
               <img
