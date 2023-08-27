@@ -4,11 +4,12 @@ import classes from './Portfolio.module.css';
 
 function Portfolio() {
   return (
+//aca tengo que modificar para posts
     <section className={classes.section}>
       <div className={classes.gridContainer}>
         <div className={(classes.item1, classes.colorContainer)}>
           <a href="http://coldental.stevearagonsite.com/" target="blank">
-          Coldental
+          SinCar
           <img
             src="https://drive.google.com/uc?id=14bdraVodGrabR-WeuRJau3vH1AB0wLHh"
             alt="Coldental"
