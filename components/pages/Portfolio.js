@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { motion } from 'framer-motion';
 
 import classes from './Portfolio.module.css';
 
@@ -6,6 +7,11 @@ function Portfolio() {
   return (
 //aca tengo que modificar para posts
     <section className={classes.section}>
+      <motion.div
+      initial={{ opacity: 0, y: -20 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.5 }}
+      >
       <div className={classes.gridContainer}>
         <div className={(classes.item1, classes.colorContainer)}>
           <a href="http://coldental.stevearagonsite.com/" target="blank">
@@ -32,6 +38,7 @@ function Portfolio() {
           <h2>Slot 6</h2>
         </div>
       </div>
+            </motion.div>
     </section>
   );
 }

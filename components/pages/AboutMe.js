@@ -1,15 +1,21 @@
 import * as React from 'react';
+import { motion } from 'framer-motion';
 
 import classes from './AboutMe.module.css';
 
 function AboutMe() {
   return (
     <section className={classes.section}>
+      <motion.div
+      initial={{ opacity: 0, y: -20 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.5 }}
+    >
       <div className={classes.infoContainer}>
         <img
           src="https://drive.google.com/uc?id=1km5xxzjNk4WitcvzbniCktIhn9dNX1I9"
           width="250px"
-        />
+          />
         <p>
         I am studying "Computer Engineering" at the University of February 3 (UNTREF).
           <br />
@@ -28,45 +34,46 @@ function AboutMe() {
             src="https://img.icons8.com/external-tal-revivo-bold-tal-revivo/256/external-html-5-is-a-software-solution-stack-that-defines-the-properties-and-behaviors-of-web-page-logo-bold-tal-revivo.png"
             alt="iconHTML"
             width="50px"
-          />
+            />
           <img
             src="https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/256/external-css-files-tanah-basah-glyph-tanah-basah.png"
             alt="iconCSS"
             width="50px"
-          />
+            />
           <img
             src="https://img.icons8.com/ios-filled/256/javascript.png"
             alt="iconJavaScript"
             width="50px"
-          />
+            />
           <img
             src="https://img.icons8.com/glyph-neue/256/php.png"
             alt=""
             width="50px"
-          />
+            />
           <img
             src="https://img.icons8.com/ios-filled/256/python.png"
             alt=""
             width="50px"
-          />
+            />
           <img
             src="https://img.icons8.com/ios/256/mysql-logo.png"
             alt=""
             width="50px"
-          />
+            />
           <img
             src="https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/256/external-react-social-media-tanah-basah-glyph-tanah-basah.png"
             alt="icon"
             width="50px"
-          />
+            />
         </div>
         <a
           href="https://drive.google.com/u/0/uc?id=17zeczS9kkLu6HcVG3oaPk3K4bkCKwJKZ&export=download"
           alt="Curriculum"
-        >
+          >
           Download CV
         </a>
       </div>
+            </motion.div>
     </section>
   );
 }
