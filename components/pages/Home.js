@@ -13,7 +13,7 @@ function Home() {
       transition={{ duration: 0.5 }}
       >
       <div className={classes.div}>
-      <img src="https://drive.google.com/uc?id=1ksADYx41ygcqm07WzxZHFj9R79dJEr7r"/>
+      <img src="https://drive.google.com/uc?id=17ILR39_Rz_QvWJ1wF5nRFOKx4Afe4Aj-"/>
       <h2>I'm frontend developer<br/> with react</h2>
       </div>
       </motion.div>
