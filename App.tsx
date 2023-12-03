@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import MainNavigation from './components/layout/MainNavigation.js'
+import MainNavigation from './components/layout/MainNavigation.js';
 import Footer from './components/layout/Footer';
 import classes from './index.css';
 
